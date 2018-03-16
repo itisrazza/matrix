@@ -7,7 +7,7 @@ It's only a simple C# program I quickly wrote in around an hour.
 You can grab a copy for yourself from
 [Releases](https://github.com/thegreatrazz/matrix/releases).
 
-[![Github Releases](https://img.shields.io/github/downloads/thegreatrazz/matrix/latest/total.svg?style=for-the-badge)](https://github.com/thegreatrazz/matrix/releases/download/v1.0/matrix.exe)
+[![Github Releases](https://img.shields.io/github/downloads/thegreatrazz/matrix/latest/total.svg?style=for-the-badge)](https://github.com/thegreatrazz/matrix/releases/download/v1.1.1/matrix.exe)
 
 ## Displaying Katakana characters
 If your console is set to code page 65001 (which you can do by typing
