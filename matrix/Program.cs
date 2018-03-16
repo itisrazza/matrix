@@ -22,16 +22,16 @@ namespace matrix
             if (Console.OutputEncoding.CodePage == 65001) // Is this Unicode?
                 //                        カタカナ
                 // Yay. Display Japanese (Katakana) symbols
-                characterSelection = new char[] { 'ア', 'イ', 'ウ', 'エ', 'オ', // No consonant
-                                                  'カ', 'キ', 'ク', 'ケ', 'コ', // k
-                                                  'サ', 'シ', 'ス', 'セ', 'ソ', // s
-                                                  'タ', 'チ', 'ク', 'ケ', 'コ', // t
-                                                  'ナ', 'ニ', 'ク', 'ケ', 'コ', // n
-                                                  'ハ', 'ヒ', 'ク', 'ケ', 'コ', // h
-                                                  'マ', 'ミ', 'ク', 'ケ', 'コ', // m
-                                                  'ヤ',     'ユ',     'ヨ', // y
-                                                  'ワ',               'ヲ', // w
-                                                  'ン'               }; // Miscellaneous
+                characterSelection = new char[] { 'ｱ', 'ｲ', 'ｳ', 'ｴ', 'ｵ', // No consonant
+                                                  'ｶ', 'ｷ', 'ｸ', 'ｹ', 'ｺ', // k
+                                                  'ｻ', 'ｼ', 'ｽ', 'ｾ', 'ｿ', // s
+                                                  'ﾀ', 'ﾁ', 'ﾂ', 'ﾃ', 'ﾄ', // t
+                                                  'ﾅ', 'ﾆ', 'ﾇ', 'ﾈ', 'ﾉ', // n
+                                                  'ﾊ', 'ﾋ', 'ﾌ', 'ﾍ', 'ﾎ', // h
+                                                  'ﾏ', 'ﾐ', 'ﾑ', 'ﾒ', 'ﾓ', // m
+                                                  'ﾔ',     'ﾕ',     'ﾖ', // y
+                                                  'ﾜ',               'ｦ', // w
+                                                  'ﾝ'               }; // Miscellaneous
             else
                 // Boo! Get your mind out of the gutter, Microsoft!
                 characterSelection = new char[] { 'A', 'B', 'C', 'D', 'E', 'F',
